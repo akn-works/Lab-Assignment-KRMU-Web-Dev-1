@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+
+header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #004aad;
+  border-radius: 5px;
+}
+
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+section h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#hero {
+  background-color: #eaf2ff;
+  padding: 60px 30px;
+  border-radius: 8px;
+  width: 80%;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#hero h2 {
+  color: #004aad;
+}
+
+#about img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+#about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1rem;
+}
+
+
+#skills table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 60%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#skills th, #skills td {
+  border: 1px solid #004aad;
+  padding: 10px;
+  text-align: center;
+}
+
+#skills th {
+  background-color: #004aad;
+  color: white;
+  font-weight: 600;
+}
+
+#skills tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+#projects ul {
+  list-style: none;
+  width: 80%;
+  margin: auto;
+}
+
+#projects li {
+  background: white;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+#projects h3 {
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+
+#contact form, #contact div {
+  margin-bottom: 15px;
+}
+
+#contact label {
+  display: inline-block;
+  width: 80px;
+  font-weight: 600;
+  text-align: left;
+}
+
+#contact input,
+#contact textarea {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+#contact button:hover {
+  background-color: #003580;
+}
+
+
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #004aad;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.back-to-top:hover {
+  background-color: #003580;
+}
