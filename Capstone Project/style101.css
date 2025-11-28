@@ -152,7 +152,6 @@ body {
 .hero-image img {
     width: 100%;
     border-radius: 20px;
-    /* Simple rounded corners */
     box-shadow: var(--shadow);
 }
 
@@ -430,3 +429,4 @@ body {
     object-fit: cover;
     display: block;
 }
+
