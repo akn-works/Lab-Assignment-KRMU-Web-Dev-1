@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Kumar Nayak | Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="container header-content">
+            <h1>AYUSH KUMAR NAYAK</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <h2>Hi, I am a <span class="animate-text">Web Developer</span></h2>
+                <p>I’m a first-semester student who recently discovered a passion for tech.
+                    I love building websites, exploring how things work behind the screen,
+                    and turning ideas into something real.</p>
+                <br>
+                <a href="#contact" class="button">Contact ME</a>
+                <a href="#projects" class="button">View projects</a>
+            </div>
+            <div class="hero-image">
+                <img src="ayush.jpg" alt="Portrait of Ayush">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 id="main-content">About Me</h2>
+            <p>I am 18 years old. I’m someone who sees the world through people first,
+                understanding emotions and human nature comes naturally to me.
+                I love colors, creativity, and the process of building something new.
+                Challenges excite me, even if I fail a hundred times.
+                I've recently discovered my passion for
+                technology, especially web development, and I enjoy creating websites that bring ideas to life. Beyond
+                coding, </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="grid-container">
+                <div class="card skill-card">
+                    <h3>HTML/CSS</h3>
+                    <p>Advanced</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Python</h3>
+                    <p>Beginner</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Photography</h3>
+                    <p>Intermediate</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Canva</h3>
+                    <p>Intermediate</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="grid-container">
+                <article class="card project-card">
+                    <h3>Personal Blog</h3>
+                    <p>A responsive blog website built with HTML and CSS,
+                        focused on clean typography and readability.</p>
+                </article>
+                <article class="card project-card">
+                    <h3>Interactive To-Do List</h3>
+                    <p>A JavaScript-powered to-do list application that saves tasks in local storage.
+                        (Work in Progress)</p>
+                </article>
+                <article class="card project-card">
+                    <h3>Gamified Study App</h3>
+                    <p>A productivity website inspired by Notion, Clash of Clans,
+                        and Minecraft to make studying fun.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="user_email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="user_message" rows="4" placeholder="How can I help you?"
+                        required></textarea>
+                </div>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ayush Kumar Nayak. All rights reserved.</p>
+    </footer>
+
+    <a href="#" class="back-to-top">↑ Top</a>
+
+</body>
+
+</html>
